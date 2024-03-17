@@ -1,0 +1,7 @@
+<!-- Because our SPA isn't pre-rendered, we have this static html version of the form to declare the form during build -->
+<!--  https://www.netlify.com/blog/2018/09/07/how-to-integrate-netlify-forms-in-a-vue-app/ "Stand-in static Forms" -->
+<form name="posts" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="title"  />
+  <textarea type="text" name="description" />
+  <input type="text" name="reference_link" />
+</form>
