@@ -1,4 +1,4 @@
-
+import 'dotenv/config'
 
 class PostSync {
   constructor() {
@@ -7,6 +7,8 @@ class PostSync {
 
   static test() {
     console.log('<<<<<<<<<<<<  PostSync Test >>>>>>>>>>>>>')
+    const length = (process.env.NETLIFY_TOKEN || '').length
+    console.log(`NETLIFY_TOKEN length: ${length}`)
   }
 
   fetchFromNetlify() {

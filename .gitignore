@@ -9,5 +9,5 @@ dist
 dist-ssr
 coverage
 *.local
-
+.env
 
