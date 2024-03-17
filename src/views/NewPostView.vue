@@ -77,8 +77,13 @@ export default {
       Succesfully submitted {{ title }}
     </div>
     <div v-else class="post-flyout">
-      <form name="posts" v-on:submit.prevent="handleSubmit" netlify>
-
+      <form
+        name="posts"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        v-on:submit.prevent="handleSubmit" >
+        <input type="hidden" name="form-name" value="posts" />
         <!-- Form fields -->
         <span :class="{hidden: confirmed}">
           <h2>New Post</h2>
