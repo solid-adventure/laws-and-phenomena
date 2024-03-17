@@ -53,7 +53,9 @@ export default {
 
       const postForm = event.target;
       const formData = new FormData(postForm);
-
+       formData.append('title', this.title)
+       formData.append('description', this.description)
+       formData.append('reference_link', this.reference_link)
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
