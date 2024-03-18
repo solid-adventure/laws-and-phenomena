@@ -25,16 +25,16 @@
   },
   {
     "id": 6,
-    "title": "Sh*tshow Effect",
-    "description": "The world always seems like it's falling apart, starting just before you were born.",
-    "reference_link": "TODO",
+    "title": "Lifeime Insider Effect",
+    "description": "The world always seems like it's falling apart, starting around the year you were born.",
+    "reference_link": "https://www.adammastroianni.com",
     "created_at": "2024-03-17T20:15:43.711Z",
     "updated_at": "2024-03-17T20:15:43.711Z"
   },
   {
     "id": 5,
     "title": "Cobra Effect",
-    "description": "When an incentive unintentionally rewards people for making the issue worse, such as a bounty on cobras making cobra-breeding profitable, resulting in a net increase in cobras.",
+    "description": "When an incentive unintentionally rewards people for making the issue worse.",
     "reference_link": "https://en.m.wikipedia.org/wiki/Perverse_incentive",
     "created_at": "2024-03-17T20:15:10.560Z",
     "updated_at": "2024-03-17T20:15:10.560Z"
