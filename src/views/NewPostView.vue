@@ -139,6 +139,10 @@ export default {
       width: 100%;
     }
 
+    form {
+      max-width: 400px;
+    }
+
     button {
       margin-top: 2em;
       display: block;
@@ -156,6 +160,7 @@ export default {
       border-radius: 3px;
       border: 0;
       font-family: sans-serif;
+      font-size: 1.2em;
     }
 
 

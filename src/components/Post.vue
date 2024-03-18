@@ -21,8 +21,8 @@ defineProps({
 
 <template>
   <div class="post">
+    <a :href="reference_link" target="_blank" class="reference_link"> <h2>{{ title }}</h2> </a>
     <h1 class="title">{{ description }}</h1>
-    <a :href="reference_link" target="_blank" class="reference_link"> {{ title }} </a>
   </div>
 </template>
 
@@ -62,7 +62,7 @@ h3 {
 }
 
 a.reference_link {
-  text-align: right;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
