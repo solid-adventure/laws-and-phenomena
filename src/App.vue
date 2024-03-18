@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="wrapper">
-      <p>Select Laws and Phenomena</p>
+      <RouterLink to="/">Select Laws and Phenomena</RouterLink>
 <!--       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>

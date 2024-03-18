@@ -5,7 +5,7 @@ export default class PostManager {
   }
 
   static get latest() {
-    return postsJSON[0]
+    return postsJSON[postsJSON.length - 1]
   }
 
 }
