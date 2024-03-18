@@ -10,7 +10,11 @@ export default {
 
   computed: {
     latest() {
-      return PostManager.latest
+      return PostManager.last
+    },
+
+    post() {
+      return  this.$route.params.id ? PostManager.find(this.$route.params.id) : this.latest
     }
   },
 
@@ -22,12 +26,12 @@ export default {
 
 <template>
   <main>
-    <Post v-if="latest"
-      :title="latest.title"
-      :description="latest.description"
-      :reference_link="latest.reference_link"
+    <Post v-if="post"
+      :title="post.title"
+      :description="post.description"
+      :reference_link="post.reference_link"
     />
-    <span v-if="!latest">
+    <span v-if="!post">
       No posts available
     </span>
   </main>
