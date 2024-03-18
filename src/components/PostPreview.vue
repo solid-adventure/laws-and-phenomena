@@ -35,7 +35,7 @@ defineProps({
 <style scoped>
 
   div.post {
-    margin-top: 3em;
+    margin-bottom: 3em;
   }
 
 </style>
